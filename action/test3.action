@@ -1,0 +1,25 @@
+# Goal
+int32 test3_goal_timeout_integer
+#int32 test3_goal_zone_integer
+int32 test3_goal_scan_type_integer
+#int32 test3_goal_item_integer
+string test3_system_side_string
+string test3_pendant_file_name
+#float32[9] test3_goal_triple_XYZ_float_array
+#geometry_msgs/Pose test3_goal_Pose
+#geometry_msgs/Quaternion test3_goal_Quaternion
+
+
+---
+# Result
+string test3_result_string
+
+---
+# Feedback
+#string test3_feedback_string
+int32 test3_feedback_percent_int
+int32 test3_feedback_action_server_code_int
+string test3_feedback_teach_pendant_string
+#float32[9] test3_feedback_triple_XYZ_float_array
+#geometry_msgs/Pose test3_feedback_Pose
+#geometry_msgs/Quaternion test3_feedback_Quaternion

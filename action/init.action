@@ -1,0 +1,10 @@
+# Goal
+int32 init_timeout
+
+---
+# Result
+string init_result
+
+---
+# Feedback
+string init_feedback

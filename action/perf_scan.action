@@ -1,0 +1,25 @@
+# Goal
+int32 perf_scan_goal_timeout_integer
+#int32 perf_scan_goal_zone_integer
+int32 perf_scan_goal_scan_type_integer
+#int32 perf_scan_goal_item_integer
+string perf_scan_system_side_string
+string perf_scan_pendant_file_name
+#float32[9] perf_scan_goal_triple_XYZ_float_array
+#geometry_msgs/Pose perf_scan_goal_Pose
+#geometry_msgs/Quaternion perf_scan_goal_Quaternion
+
+
+---
+# Result
+string perf_scan_result_string
+
+---
+# Feedback
+#string perf_scan_feedback_string
+int32 perf_scan_feedback_percent_int
+int32 perf_scan_feedback_action_server_code_int
+string perf_scan_feedback_teach_pendant_string
+#float32[9] perf_scan_feedback_triple_XYZ_float_array
+#geometry_msgs/Pose perf_scan_feedback_Pose
+#geometry_msgs/Quaternion perf_scan_feedback_Quaternion

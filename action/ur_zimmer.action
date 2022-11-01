@@ -1,0 +1,17 @@
+# Goal
+int32 ur_zimmer_timeout_integer
+int32 ur_zimmer_position_number
+string ur_zimmer_system_side_string
+# zimmer command is "open" or "close"
+string ur_zimmer_command
+
+
+---
+# Result
+string ur_zimmer_result_string
+
+---
+# Feedback string ur_zimmer_feedback_string
+int32 ur_zimmer_feedback_percent_int
+int32 ur_zimmer_feedback_action_server_code_int
+string ur_zimmer_feedback_teach_pendant_string

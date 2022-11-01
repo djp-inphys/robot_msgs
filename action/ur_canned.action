@@ -1,0 +1,24 @@
+# Goal
+int32 ur_canned_timeout_integer
+#int32 ur_canned_goal_zone_integer
+int32 ur_canned_scan_type_integer
+#int32 ur_canned_goal_item_integer
+string ur_canned_system_side_string
+string ur_canned_pendant_file_name
+#float32[9] ur_canned_goal_triple_XYZ_float_array
+#geometry_msgs/Pose ur_canned_goal_Pose
+#geometry_msgs/Quaternion ur_canned_goal_Quaternion
+
+
+---
+# Result
+string ur_canned_result_string
+
+---
+# Feedback string ur_canned_feedback_string
+int32 ur_canned_feedback_percent_int
+int32 ur_canned_feedback_action_server_code_int
+string ur_canned_feedback_teach_pendant_string
+#float32[9] ur_canned_feedback_triple_XYZ_float_array
+#geometry_msgs/Pose ur_canned_feedback_Pose
+#geometry_msgs/Quaternion ur_canned_feedback_Quaternion

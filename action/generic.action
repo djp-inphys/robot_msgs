@@ -1,0 +1,25 @@
+# Goal
+int32 generic_goal_timeout_integer
+int32 generic_goal_zone_integer
+int32 generic_goal_scan_type_integer
+int32 generic_goal_item_integer
+string generic_system_side_string
+string generic_pendant_file_name
+float32[9] generic_goal_triple_XYZ_float_array
+geometry_msgs/Pose generic_goal_Pose
+geometry_msgs/Quaternion generic_goal_Quaternion
+
+
+---
+# Result
+string generic_result_string
+
+---
+# Feedback
+string generic_feedback_string
+int32 generic_feedback_percent_int
+int32 generic_feedback_action_server_code_int
+string generic_feedback_teach_pendant_string
+float32[9] generic_feedback_triple_XYZ_float_array
+geometry_msgs/Pose generic_feedback_Pose
+geometry_msgs/Quaternion generic_feedback_Quaternion

@@ -22,7 +22,7 @@ find_package(catkin REQUIRED COMPONENTS
    ur_goto_pose.action
   #  ur_canned.action
   #  generic.action
-  #  perf_scan.action
+  perf_scan.action
   #  test1.action
   #  test2.action
   #  test3.action

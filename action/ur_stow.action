@@ -4,9 +4,9 @@
 # print(goal.ur_stow_system_side_string)
 # print(goal.ur_stow_pendant_file_name)
 #
-int32 ur_stow_timeout_integer
+int32 ur_stow_goal_timeout_integer
 #int32 ur_stow_goal_zone_integer
-int32 ur_stow_position_number
+int32 ur_stow_goal_scan_type_integer
 #int32 ur_stow_goal_item_integer
 string ur_stow_system_side_string
 string ur_stow_movement_plan

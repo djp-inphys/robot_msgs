@@ -20,6 +20,7 @@ find_package(catkin REQUIRED COMPONENTS
    ur_canned.action
    ur_zimmer.action
    ur_goto_pose.action
+   ur_go_down.action
   #  ur_canned.action
   #  generic.action
   perf_scan.action

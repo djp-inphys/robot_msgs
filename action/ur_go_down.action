@@ -1,0 +1,30 @@
+# Goal
+# print(goal.ur_go_down_goal_scan_type_integer)
+# print(goal.ur_go_down_goal_timeout_integer)
+# print(goal.ur_go_down_system_side_string)
+# print(goal.ur_go_down_position)
+# print(goal.ur_go_down_orientation)
+#int32 ur_go_down_goal_zone_integer
+#int32 ur_go_down_goal_item_integer
+# string ur_go_down_pendant_file_name
+#geometry_msgs/Pose ur_go_down_goal_Pose
+
+int32 ur_go_down_scan_type_integer
+int32 ur_go_down_timeout_integer
+string ur_go_down_system_side_string
+float32[3] ur_go_down_position
+float32[4] ur_go_down_orientation
+
+
+---
+# Result
+string ur_go_down_result_string
+
+---
+# Feedback string ur_go_down_feedback_string
+int32 ur_go_down_feedback_percent_int
+int32 ur_go_down_feedback_action_server_code_int
+# string ur_go_down_feedback_teach_pendant_string
+#float32[9] ur_go_down_feedback_triple_XYZ_float_array
+#geometry_msgs/Pose ur_go_down_feedback_Pose
+#geometry_msgs/Quaternion ur_go_down_feedback_Quaternion

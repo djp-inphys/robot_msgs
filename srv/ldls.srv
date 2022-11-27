@@ -1,0 +1,6 @@
+#request Result+point
+Result result
+---
+# Image result used for visualisation
+sensor_msgs/PointCloud2 fore
+sensor_msgs/PointCloud2 back

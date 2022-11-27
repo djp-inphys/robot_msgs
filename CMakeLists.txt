@@ -10,6 +10,11 @@ find_package(catkin REQUIRED COMPONENTS
   message_generation
 )
 
+ add_service_files(
+   FILES
+   GeoGraspSrv.srv
+   ldls.srv
+ )
 
  add_action_files(
    FILES
@@ -28,6 +33,11 @@ find_package(catkin REQUIRED COMPONENTS
   #  test2.action
   #  test3.action
    #Action2.action
+ )
+ 
+  add_message_files(
+   FILES
+   Result.msg
  )
 
  generate_messages(

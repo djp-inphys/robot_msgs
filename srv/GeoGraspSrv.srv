@@ -1,0 +1,9 @@
+#request
+sensor_msgs/PointCloud2 foreground_cloud
+sensor_msgs/PointCloud2 background_cloud
+---
+# Response= points
+
+geometry_msgs/Point first_point
+geometry_msgs/Point second_point
+geometry_msgs/Point centroid
